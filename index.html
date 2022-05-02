@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Encriptador/Desencriptador</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body id="colorDelBody">
+
+			<img id="logoIrreverente" src="Irreverente.net.png">
+			<br>
+
+			<h1 class="tituloPrincipal">ENCRIPTA O DESENCRIPTA UN TEXTO</h1>
+			<br>
+
+			<div class="bloque1">
+				<input id="entradaDeTexto" type="text" value="Ingresa el texto aquí" width="30%" height="40%" />
+				<br>
+				<h id="condicionesRestriccionesDeUso">&#8505; <strong>Sólo letras minúsculas y sin acento</strong></h>
+				<br>
+				<input class="boton" type="button" value="Encriptar" id="botonEncriptar" width="30%" height="20%" />
+				<input class="boton" type="button" value="Desencriptar" id="botonDesencriptar" width="30%" height="20%" />
+			</div>
+
+			
+			<div id="bloqueParaImagenSinResultados">
+				<img id="imagenSinResultados" src="sinResultados.png">
+			</div>
+			
+			<div id="bloqueParaResultado">
+				<input id="salidaDeTexto" type="text" width="30%" height="40%" />
+				<br>
+				<input id="botonCopiar" type="button" value="Copiar" width="30%" height="20%" />
+			</div>
+		
+
+			<footer><h5  id="pieDePagina">Hecho por Angi Pardo para el primer challenge de <a href="https://aluracursos.com">ALURA<a/></h5></footer>
+			
+			<script src="script.js"></script>
+
+	</body>
+</html>
