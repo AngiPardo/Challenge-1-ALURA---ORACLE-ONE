@@ -1,6 +1,6 @@
 
 #colorDelBody{
-    background-color: white;
+    background-color: black;
 }
 
 #logoIrreverente{
@@ -42,6 +42,8 @@ text-align: center;
 
 #condicionesRestriccionesDeUso{
     font-size: small;
+    color: white;
+
 }
 
 .boton{
@@ -98,8 +100,9 @@ text-align: center;
 }
 
 #pieDePagina{
-    color: white;
+    color: gray;
     position: absolute;
     top: 400px;
     left: 70px;
+    padding: 10px;
 }
