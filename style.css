@@ -34,7 +34,10 @@
     border: darkorange;
     border-style: dashed;
     text-align: center;
+}
 
+::-webkit-input-placeholder{
+text-align: center;
 }
 
 #condicionesRestriccionesDeUso{
