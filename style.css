@@ -26,7 +26,7 @@
 
 #entradaDeTexto{
     height: 50%;
-    width:100%;
+    width:96%;
     font-family: sans-serif;
     font-size: large;
     background-color: lightgray;
@@ -52,6 +52,7 @@ text-align: center;
     font-family: sans-serif;
     font-weight: bold;
     width: 49%;
+    margin-bottom: 5px;
 }
 
 
@@ -73,7 +74,7 @@ text-align: center;
 
 #bloqueParaResultado{
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 60%;
     height: 85%;
     width: 85%;
@@ -102,7 +103,7 @@ text-align: center;
 #pieDePagina{
     color: gray;
     position: absolute;
-    top: 400px;
+    top: 490px;
     left: 70px;
     padding: 10px;
 }
@@ -120,6 +121,7 @@ text-align: center;
         padding-right: 30px;
         padding-top: 5px;
         padding-bottom: 5px;
+        width: 100%;
         background-color: yellow;
         text-align: center;
         font-weight: bold;
@@ -129,13 +131,13 @@ text-align: center;
     .bloque1{
         position: absolute;
         top: 70px;
-        left: 53px;
+        left: 40px;
         height: 90%;
         width: 90%;
     }
     
     #entradaDeTexto{
-        height: 8%;
+        height: 35%;
         width:80%;
         font-family: sans-serif;
         font-size: large;
@@ -161,17 +163,17 @@ text-align: center;
         font-size: large;
         font-family: sans-serif;
         font-weight: bold;
-        height: 3%;
+        height: 5%;
         width: 83%;
     }
     
     
     #bloqueParaImagenSinResultados{
-        height: 10%;
-        width: 37%;
+        height: 28%;
+        width: 50%;
         position: absolute;
-        top: 250px;
-        left: 130px;
+        top: 400px;
+        left: 80px;
         border: orange;
         border-style: dashed;
     }
@@ -184,15 +186,15 @@ text-align: center;
     
     #bloqueParaResultado{
         position: absolute;
-        top: 250px;
-        left: 20px;
+        top: 410px;
+        left: 80px;
         height: 15%;
-        width: 37%;
+        width: 50%;
     }
     
     #salidaDeTexto{
-        height: 65%;
-        width:98%;
+        height: 100%;
+        width:96%;
         font-family: sans-serif;
         font-size: large;
         background-color: lightgray;
@@ -207,12 +209,12 @@ text-align: center;
         font-size: large;
         font-family: sans-serif;
         font-weight: bold;
-        width: 80%;
+        width: 100%;
     }
     #pieDePagina{
         color: gray;
         position: absolute;
-        top: 350px;
+        top: 600px;
         left: 40px;
         padding: 10px;
         width: 90%;
