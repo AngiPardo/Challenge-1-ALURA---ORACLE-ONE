@@ -132,7 +132,7 @@ text-align: center;
     .bloque1{
         position: absolute;
         top: 100px;
-        left: 50px;
+        left: 60px;
         height: 90%;
         width: 90%;
     }
@@ -174,7 +174,7 @@ text-align: center;
         width: 50%;
         position: absolute;
         top: 510px;
-        left: 90px;
+        left: 100px;
         border: orange;
         border-style: dashed;
     }
@@ -188,7 +188,7 @@ text-align: center;
     #bloqueParaResultado{
         position: absolute;
         top: 510px;
-        left: 50px;
+        left: 60px;
         height: 25%;
         width: 75%;
     }
@@ -215,7 +215,7 @@ text-align: center;
     #pieDePagina{
         color: gray;
         position: absolute;
-        top: 740px;
+        top: 760px;
         left: 40px;
         padding: 10px;
         width: 90%;
