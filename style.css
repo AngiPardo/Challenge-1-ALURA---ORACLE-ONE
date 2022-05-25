@@ -112,7 +112,7 @@ text-align: center;
 @media screen and (max-width:480px){
 
     #logoIrreverente{
-        padding-left: 10px;
+        padding-left: 50px;
         padding-top: 10px;
         width: 50%;
         height: 50%;
@@ -216,7 +216,7 @@ text-align: center;
         color: gray;
         position: absolute;
         top: 760px;
-        left: 40px;
+        left: 60px;
         padding: 10px;
         width: 90%;
         font-size: x-small;
